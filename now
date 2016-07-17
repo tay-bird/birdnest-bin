@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Echo the current date and time.
+
+date "+%Y-%m-%d %H:%M:%S"

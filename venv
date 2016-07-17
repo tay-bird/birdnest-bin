@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Activate the specified virtualenv in the ~/.venv directory and move
+# to the relevant project directory.
+
+source ~/.venv/$1/bin/activate
+cd ~/projects/$1/

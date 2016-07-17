@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Do a hard reset to head of the current git project.
+# This will wipe out all local changes.
+
+sudo git fetch --all
+sudo git reset --hard origin/master

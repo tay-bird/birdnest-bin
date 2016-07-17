@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+sudo -i puppet apply -tv /etc/puppetlabs/code/environments/production/manifests/site.pp
