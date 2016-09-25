@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo "Accessing personal keys..."
+drive pull ~/gdrive/birdnest/keys/personal.kdbx
+kpcli --kdb ~/gdrive/birdnest/keys/personal.kdbx
