@@ -1,5 +1,10 @@
 #!/bin/sh
 
+if [ ! -d "~/gdrive" ]; then
+    echo "Initializing Google Drive..."
+    drive init ~/gdrive
+fi
+
 echo "Accessing personal keys..."
 drive pull ~/gdrive/birdnest/keys/personal.kdbx
 kpcli --kdb ~/gdrive/birdnest/keys/personal.kdbx
